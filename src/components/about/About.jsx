@@ -36,6 +36,11 @@ const About = () => {
               <small>Multiple video game projects, React development projects, wxWidgets software development</small>
             </article>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe similique, totam porro deleniti aliquam maiores accusantium maxime nostrum qui voluptatem blanditiis accusamus nemo corporis quibusdam sapiente consectetur itaque modi! Nemo?
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
