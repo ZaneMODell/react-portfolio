@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG1 from '../../assets/MOD.png'
+import IMG2 from '../../assets/breakandenter.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -11,18 +11,18 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'PORTFOLIO ITEM 1',
-    link: 'https://github.com',
-    demo: 'https://youtube.com'
+    title: 'Merchant of Death',
+    link: 'https://elimcardle.itch.io/merchant-of-death',
+    demo: 'https://youtu.be/U0PUBlPPHzM'
 
   },
 
   {
     id: 2,
     image: IMG2,
-    title: 'PORTFOLIO ITEM 2',
-    link: 'https://github.com',
-    demo: 'https://youtube.com'
+    title: 'Break and Enter',
+    link: 'https://viktor-filipovich.itch.io/break-and-enter',
+    demo: 'https://youtu.be/TA4FDh-XBY0'
 
   },
 
@@ -80,7 +80,7 @@ const Portfolio = () => {
           </div>
           <h3>{title}</h3>
           <div className="portfolio__item-cta">
-            <a href={link} className='btn' target='_blank'>Github/Itch Link</a>
+            <a href={link} className='btn' target='_blank'>Project Link</a>
             <a href={demo} className='btn btn-primary' target='_blank'>Project Demo</a>
           </div>
         </article>
