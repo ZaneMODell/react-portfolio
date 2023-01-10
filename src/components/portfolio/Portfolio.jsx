@@ -29,9 +29,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'PORTFOLIO ITEM 3',
-    link: 'https://github.com',
-    demo: 'https://youtube.com'
+    title: 'This Website',
+    link: 'https://github.com/ZaneMODell/react-portfolio',
+    demo: '#'
 
   },
 
@@ -58,7 +58,7 @@ const data = [
     image: IMG6,
     title: 'PORTFOLIO ITEM 6',
     link: 'https://github.com',
-    demo: 'https://youtube.com'
+    demo: '#'
 
   },
 
