@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe similique, totam porro deleniti aliquam maiores accusantium maxime nostrum qui voluptatem blanditiis accusamus nemo corporis quibusdam sapiente consectetur itaque modi! Nemo?
+            Through computer science and software development, I feel as if I've found my creative outlet to make something special. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

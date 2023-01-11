@@ -2,10 +2,10 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/MOD.png'
 import IMG2 from '../../assets/breakandenter.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG3 from '../../assets/graph.png'
+import IMG4 from '../../assets/CanadianExperience.png'
+import IMG5 from '../../assets/3DFPS.png'
+import IMG6 from '../../assets/avl tree.png'
 
 const data = [
   {
@@ -29,8 +29,8 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'This Website',
-    link: 'https://github.com/ZaneMODell/react-portfolio',
+    title: 'Graph Project',
+    link: 'https://github.com/ZaneMODell/Project10',
     demo: '#'
 
   },
@@ -38,8 +38,8 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'PORTFOLIO ITEM 4',
-    link: 'https://github.com',
+    title: "Harold's Magical Machines",
+    link: 'https://drive.google.com/drive/folders/14KYLOnhtq8kjx1gmPoKc9CUw4PZSgRPn?usp=sharing',
     demo: 'https://youtube.com'
 
   },
@@ -47,8 +47,8 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'PORTFOLIO ITEM 5',
-    link: 'https://github.com',
+    title: '3D FPS Project',
+    link: 'https://zaneodell.itch.io/3d-fps-final-submission',
     demo: 'https://youtube.com'
 
   },
@@ -56,8 +56,8 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'PORTFOLIO ITEM 6',
-    link: 'https://github.com',
+    title: 'AVL Tree Project',
+    link: 'https://github.com/ZaneMODell/AVL-Tree-Project',
     demo: '#'
 
   },
@@ -81,7 +81,7 @@ const Portfolio = () => {
           <h3>{title}</h3>
           <div className="portfolio__item-cta">
             <a href={link} className='btn' target='_blank'>Project Link</a>
-            <a href={demo} className='btn btn-primary' target='_blank'>Project Demo</a>
+            {/* <a href={demo} className='btn btn-primary' target='_blank'>Project Demo</a> */}
           </div>
         </article>
             )
