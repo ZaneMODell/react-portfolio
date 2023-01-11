@@ -39,7 +39,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: "Harold's Magical Machines",
-    link: 'https://drive.google.com/drive/folders/14KYLOnhtq8kjx1gmPoKc9CUw4PZSgRPn?usp=sharing',
+    link: 'https://github.com',
     demo: 'https://youtube.com'
 
   },
@@ -57,7 +57,7 @@ const data = [
     id: 6,
     image: IMG6,
     title: 'AVL Tree Project',
-    link: 'https://github.com/ZaneMODell/AVL-Tree-Project',
+    link: 'https://github.com',
     demo: '#'
 
   },
