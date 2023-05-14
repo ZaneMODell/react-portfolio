@@ -1,27 +1,27 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/MOD.png'
-import IMG2 from '../../assets/breakandenter.jpg'
-import IMG3 from '../../assets/graph.png'
-import IMG4 from '../../assets/CanadianExperience.png'
-import IMG5 from '../../assets/3DFPS.png'
-import IMG6 from '../../assets/avl tree.png'
+import IMG1 from '../../assets/PeppyExplosion.png'
+import IMG2 from '../../assets/RagnaracketKronas.png'
+import IMG3 from '../../assets/Fading Memories Marcia.png'
+import IMG4 from '../../assets/MOD.png'
+import IMG5 from '../../assets/breakandenter.jpg'
+import IMG6 from '../../assets/3DFPS.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Merchant of Death',
-    link: 'https://elimcardle.itch.io/merchant-of-death',
-    demo: 'https://youtu.be/U0PUBlPPHzM'
+    title: 'PizzaKai',
+    link: 'https://elexmccoy.itch.io/pizzakai',
+    demo: 'https://youtu.be/AzE8EMG_z8g'
 
   },
 
   {
     id: 2,
     image: IMG2,
-    title: 'Break and Enter',
-    link: 'https://viktor-filipovich.itch.io/break-and-enter',
+    title: 'RagnaRacket',
+    link: 'https://zaneodell.itch.io/ragnaracket',
     demo: 'https://youtu.be/TA4FDh-XBY0'
 
   },
@@ -29,8 +29,8 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Graph Project',
-    link: 'https://github.com/ZaneMODell/Project10',
+    title: 'Fading Memories',
+    link: 'https://luongvy.itch.io/fading-memories',
     demo: '#'
 
   },
@@ -38,27 +38,27 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "Harold's Magical Machines",
-    link: 'https://github.com',
-    demo: 'https://youtube.com'
+    title: 'Merchant of Death',
+    link: 'https://elimcardle.itch.io/merchant-of-death',
+    demo: 'https://youtu.be/U0PUBlPPHzM'
 
   },
 
   {
     id: 5,
     image: IMG5,
-    title: '3D FPS Project',
-    link: 'https://zaneodell.itch.io/3d-fps-final-submission',
-    demo: 'https://youtube.com'
+    title: 'Break and Enter',
+    link: 'https://viktor-filipovich.itch.io/break-and-enter',
+    demo: 'https://youtu.be/TA4FDh-XBY0'
 
   },
 
   {
     id: 6,
     image: IMG6,
-    title: 'AVL Tree Project',
-    link: 'https://github.com',
-    demo: '#'
+    title: '3D FPS Project',
+    link: 'https://zaneodell.itch.io/3d-fps-final-submission',
+    demo: 'https://youtube.com'
 
   },
 
