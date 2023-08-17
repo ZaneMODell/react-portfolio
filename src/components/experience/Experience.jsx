@@ -5,7 +5,7 @@ import {HiBadgeCheck} from 'react-icons/hi'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
+      <h5>What Can I Do?</h5>
       <h2>My Experience</h2>
 
       <div className="container experience__container">
@@ -15,29 +15,36 @@ const Experience = () => {
           <article className='experience__details'>
             <HiBadgeCheck className='experience__details-icon' />
             <div>
-              <h4>Javascript</h4>
-              <small className='text-light'>Beginner</small>
+              <h4>Javascript/TypeScript</h4>
+              <small className='text-light'>Intermediate</small>
             </div>
           </article>
           <article className='experience__details'>
             <HiBadgeCheck className='experience__details-icon' />
             <div>
               <h4>HTML</h4>
-              <small className='text-light'>Beginner</small>
+              <small className='text-light'>Intermediate</small>
             </div>
           </article>
           <article className='experience__details'>
             <HiBadgeCheck className='experience__details-icon' />
             <div>
               <h4>CSS</h4>
-              <small className='text-light'>Beginner</small>
+              <small className='text-light'>Intermediate</small>
             </div>
           </article>
           <article className='experience__details'>
             <HiBadgeCheck className='experience__details-icon' />
             <div>
               <h4>React</h4>
-              <small className='text-light'>Beginner</small>
+              <small className='text-light'>Intermediate</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <HiBadgeCheck className='experience__details-icon' />
+            <div>
+              <h4>Angular</h4>
+              <small className='text-light'>Intermediate</small>
             </div>
           </article>
         </div>
@@ -76,13 +83,7 @@ const Experience = () => {
               <small className='text-light'>Intermediate</small>
             </div>
           </article>
-          <article className='experience__details'>
-            <HiBadgeCheck className='experience__details-icon' /> 
-            <div>
-              <h4>Node JS</h4>
-              <small className='text-light'>Beginner</small>
-            </div>
-          </article>
+          
         </div>
         </div>
       </div>

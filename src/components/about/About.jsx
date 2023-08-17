@@ -23,21 +23,23 @@ const About = () => {
             <article className='about__card'>
               <BsAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3 years of college and 3 month software development internship</small>
+              <small>3 years of college level computer science projects and a 3 month long software development internship specializing in Angular development</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Employers</h5>
-              <small>Michigan State University, Auto-Owners Insurance</small>
+              <small>Michigan State University, </small>
+              <small>
+                Auto-Owners Insurance</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>Multiple video game projects, React development projects, wxWidgets software development</small>
+              <small>Multiple video game projects in the Unity game engine, React portfolio, wxWidgets software development, simple proxy server, mail server, client and server applications</small>
             </article>
           </div>
           <p>
-            Through computer science and software development, I feel as if I've found my creative outlet to make something special. 
+            Through computer science and software development, I feel as if I've found my creative outlet to create great things.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
