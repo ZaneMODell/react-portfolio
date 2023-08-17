@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.357158c6.css",
-    "main.js": "/react-portfolio/static/js/main.b1fd682b.js",
+    "main.css": "/react-portfolio/static/css/main.2cf50208.css",
+    "main.js": "/react-portfolio/static/js/main.ef9eb0c4.js",
     "static/media/ZanePortfolio2.jpg": "/react-portfolio/static/media/ZanePortfolio2.67b6f6b4fcc4126301d7.jpg",
     "static/media/ZanePortfolio1.jpg": "/react-portfolio/static/media/ZanePortfolio1.1e2219184c37508f48b9.jpg",
     "static/media/3DFPS.png": "/react-portfolio/static/media/3DFPS.7597b2b266573096d514.png",
@@ -12,11 +12,11 @@
     "static/media/RagnaracketKronas.png": "/react-portfolio/static/media/RagnaracketKronas.6941907660470668f71a.png",
     "static/media/Fading Memories Marcia.png": "/react-portfolio/static/media/Fading Memories Marcia.33879289db706815b779.png",
     "index.html": "/react-portfolio/index.html",
-    "main.357158c6.css.map": "/react-portfolio/static/css/main.357158c6.css.map",
-    "main.b1fd682b.js.map": "/react-portfolio/static/js/main.b1fd682b.js.map"
+    "main.2cf50208.css.map": "/react-portfolio/static/css/main.2cf50208.css.map",
+    "main.ef9eb0c4.js.map": "/react-portfolio/static/js/main.ef9eb0c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.357158c6.css",
-    "static/js/main.b1fd682b.js"
+    "static/css/main.2cf50208.css",
+    "static/js/main.ef9eb0c4.js"
   ]
 }
