@@ -1,6 +1,6 @@
 .portfolio__container {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
 }
 
@@ -27,12 +27,16 @@
 }
 
 .portfolio_item-cta {
-    display: flex;
+    display: inline-flex;
+    margin: auto;
     gap: 1rem;
     margin: 1rem;
 }
 #PizzaKai {
-    height: 17.5rem;
+    height: 21.5rem;
+}
+#MerchantofDeath {
+    height: 21.5rem;
 }
 
 /* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */

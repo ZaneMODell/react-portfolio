@@ -4,8 +4,6 @@ import IMG1 from '../../assets/PeppyExplosion.png'
 import IMG2 from '../../assets/RagnaracketKronas.png'
 import IMG3 from '../../assets/Fading Memories Marcia.png'
 import IMG4 from '../../assets/MOD.png'
-import IMG5 from '../../assets/breakandenter.jpg'
-import IMG6 from '../../assets/3DFPS.png'
 
 const data = [
   {
@@ -44,23 +42,6 @@ const data = [
 
   },
 
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Break and Enter',
-    link: 'https://viktor-filipovich.itch.io/break-and-enter',
-    demo: 'https://youtu.be/TA4FDh-XBY0'
-
-  },
-
-  {
-    id: 6,
-    image: IMG6,
-    title: '3D FPS Project',
-    link: 'https://zaneodell.itch.io/3d-fps-final-submission',
-    demo: 'https://youtube.com'
-
-  },
 
 ]
 
@@ -76,12 +57,11 @@ const Portfolio = () => {
             return(
               <article key={id} className='portfolio__item'>
           <div className="portfolio__item-image">
-          <img src={image} alt={title} id= {title}/>
+          <img src={image} alt={title} id= {title.split(" ").join("")}/>
           </div>
           <h3>{title}</h3>
           <div className="portfolio__item-cta">
             <a href={link} className='btn' target='_blank'>Project Link</a>
-            {/* <a href={demo} className='btn btn-primary' target='_blank'>Project Demo</a> */}
           </div>
         </article>
             )
