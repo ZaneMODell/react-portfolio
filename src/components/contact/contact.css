@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    transform: translateY(25%);
 }
 
 .contact__option {
@@ -18,6 +19,7 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    margin: 0 0 3rem 0;
 }
 
 .contact__option:hover {
@@ -35,6 +37,10 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+}
+
+.contact__text{
+    margin-bottom: 0;
 }
 
 /* ===================== FORM ======================*/

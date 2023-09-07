@@ -31,12 +31,10 @@
     margin: auto;
     gap: 1rem;
     margin: 1rem;
+    width: 50%;
 }
-#PizzaKai {
-    height: 21.5rem;
-}
-#MerchantofDeath {
-    height: 21.5rem;
+#PizzaKai, #MerchantofDeath, #RagnaRacket, #FadingMemories {
+    height: 20rem;
 }
 
 /* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */

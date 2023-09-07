@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/PeppyExplosion.png'
-import IMG2 from '../../assets/RagnaracketKronas.png'
+import IMG1 from '../../assets/PizzaKai.png'
+import IMG2 from '../../assets/Ragnaracket.png'
 import IMG3 from '../../assets/Fading Memories Marcia.png'
 import IMG4 from '../../assets/MOD.png'
 
@@ -48,8 +48,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5></h5>
-      <h2></h2>
+      <h2>My Projects</h2>
+      <h3>I want to make special experiences just like these for hundreds of other players around the world!</h3>
 
       <div className="container portfolio__container">
         {

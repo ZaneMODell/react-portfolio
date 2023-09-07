@@ -1,7 +1,7 @@
 .experience__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+content: "";
+  display: table;
+  clear: both;
 }
 
 .experience__container > div {
@@ -25,20 +25,36 @@
 }
 
 .experience_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: inline-block;
+    /* grid-template-columns: 1fr 1fr; */
     row-gap: 2rem;
 }
 
 .experience_details {
-    display: flex;
+    width: 50%;
     gap: 1rem;
+}
+
+.skill_container {
+    float: left;
+    width: 46%;
+    margin: 0 1rem 0 1rem;
+}
+
+#soft_skills{
+    float: right;
 }
 
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
 }
+
+h3 {
+    margin: -1rem 0 3rem 0;
+}
+
+
 
 /* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */
 
