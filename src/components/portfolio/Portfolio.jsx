@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/PizzaKai.png'
+import IMG1 from '../../assets/Pizzakai.png'
 import IMG2 from '../../assets/Ragnaracket.png'
 import IMG3 from '../../assets/Fading Memories Marcia.png'
 import IMG4 from '../../assets/MOD.png'
@@ -61,7 +61,7 @@ const Portfolio = () => {
           </div>
           <h3>{title}</h3>
           <div className="portfolio__item-cta">
-            <a href={link} className='btn' target='_blank'>Project Link</a>
+            <a href={link} className='btn' target='_blank' rel="noreferrer">Project Link</a>
           </div>
         </article>
             )
