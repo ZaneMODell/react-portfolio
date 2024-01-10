@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.bbd873d9.css",
-    "main.js": "/react-portfolio/static/js/main.bbe5046d.js",
+    "main.js": "/react-portfolio/static/js/main.d98ac4a5.js",
     "static/media/ZanePortfolio2.jpg": "/react-portfolio/static/media/ZanePortfolio2.67b6f6b4fcc4126301d7.jpg",
     "static/media/ZanePortfolio1.jpg": "/react-portfolio/static/media/ZanePortfolio1.1e2219184c37508f48b9.jpg",
     "static/media/MOD.png": "/react-portfolio/static/media/MOD.8fd35b06e83330712547.png",
     "static/media/Ragnaracket.png": "/react-portfolio/static/media/Ragnaracket.d0afbf8f8391693d4a24.png",
-    "static/media/PizzaKai.png": "/react-portfolio/static/media/PizzaKai.4f861375f95415b944f0.png",
-    "static/media/Zane_O'Dell_Resume_09-07-23.pdf": "/react-portfolio/static/media/Zane_O'Dell_Resume_09-07-23.132b12fa8bf2baefd0d5.pdf",
+    "static/media/Pizzakai.png": "/react-portfolio/static/media/Pizzakai.3163503bb3db986bea50.png",
+    "static/media/Zane_ODell_Resume_1-10-2024.pdf": "/react-portfolio/static/media/Zane_ODell_Resume_1-10-2024.6bb48e761332d77690dc.pdf",
     "static/media/Fading Memories Marcia.png": "/react-portfolio/static/media/Fading Memories Marcia.33879289db706815b779.png",
     "index.html": "/react-portfolio/index.html",
     "main.bbd873d9.css.map": "/react-portfolio/static/css/main.bbd873d9.css.map",
-    "main.bbe5046d.js.map": "/react-portfolio/static/js/main.bbe5046d.js.map"
+    "main.d98ac4a5.js.map": "/react-portfolio/static/js/main.d98ac4a5.js.map"
   },
   "entrypoints": [
     "static/css/main.bbd873d9.css",
-    "static/js/main.bbe5046d.js"
+    "static/js/main.d98ac4a5.js"
   ]
 }
