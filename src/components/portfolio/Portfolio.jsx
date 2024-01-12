@@ -10,8 +10,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'PizzaKai',
-    link: 'https://elexmccoy.itch.io/pizzakai',
-    demo: 'https://youtu.be/AzE8EMG_z8g'
+    itch_link: 'https://elexmccoy.itch.io/pizzakai',
+    github_link: 'https://github.com/ZaneMODell/Pizzakai'
 
   },
 
@@ -19,8 +19,8 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'RagnaRacket',
-    link: 'https://zaneodell.itch.io/ragnaracket',
-    demo: 'https://youtu.be/TA4FDh-XBY0'
+    itch_link: 'https://zaneodell.itch.io/ragnaracket',
+    github_link: 'https://github.com/ZaneMODell/ragnaracket-main'
 
   },
 
@@ -28,8 +28,8 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'Fading Memories',
-    link: 'https://luongvy.itch.io/fading-memories',
-    demo: '#'
+    itch_link: 'https://luongvy.itch.io/fading-memories',
+    github_link: 'https://drive.google.com/file/d/18lYDTiglwWqyxPS8yhEW9-DcoSDe0nWT/view?usp=sharing'
 
   },
 
@@ -37,8 +37,8 @@ const data = [
     id: 4,
     image: IMG4,
     title: 'Merchant of Death',
-    link: 'https://elimcardle.itch.io/merchant-of-death',
-    demo: 'https://youtu.be/U0PUBlPPHzM'
+    itch_link: 'https://elimcardle.itch.io/merchant-of-death',
+    github_link: 'https://github.com/ZaneMODell/Merchant-of-Death'
 
   },
 
@@ -53,15 +53,16 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, link, demo}) => {
+          data.map(({id, image, title, itch_link, github_link}) => {
             return(
               <article key={id} className='portfolio__item'>
           <div className="portfolio__item-image">
           <img src={image} alt={title} id= {title.split(" ").join("")}/>
           </div>
           <h3>{title}</h3>
-          <div className="portfolio__item-cta">
-            <a href={link} className='btn' target='_blank' rel="noreferrer">Project Link</a>
+          <div id ='button_container' className="portfolio__item-cta"> 
+            <a href={itch_link} id='download_button' className='btn' target='_blank' rel="noreferrer">Itch.io Page</a>
+            <a href={github_link} id='source_code_button' className='btn btn-primary' target='_blank' rel="noreferrer">Source Files</a>
           </div>
         </article>
             )

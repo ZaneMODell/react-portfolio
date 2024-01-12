@@ -23,7 +23,7 @@ const About = () => {
             <article className='about__card'>
               <BsAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3 years of college level computer science and game development projects and a 3 month long software 
+              <small>4 years of college level computer science and game development projects and a 3 month long software 
                 development internship specializing in Angular development</small>
             </article>
             <article className='about__card'>
@@ -36,7 +36,7 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>Multiple video game projects in the Unity game engine, React portfolio, wxWidgets software development, simple proxy server, mail server, client and server applications</small>
+              <small>Multiple video game projects in the Unity game engine, capstone-level networking module in C++, React portfolio, wxWidgets software development, and more</small>
             </article>
           </div>
           <p>

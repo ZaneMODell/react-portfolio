@@ -98,6 +98,12 @@ const Experience = () => {
               <article className='experience__details'>
                 <HiBadgeCheck className='experience__details-icon' />
                 <div>
+                  <h4>Leadership</h4>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <HiBadgeCheck className='experience__details-icon' />
+                <div>
                   <h4>Workflow and Development Pipeline Knowledge</h4>
                 </div>
               </article>
